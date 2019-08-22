@@ -1,0 +1,113 @@
+.billboard{
+    height: 38rem;
+    background: url(../images/art2.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-top: 0px;
+}
+
+#welcome {
+    margin-top: 0px;
+    padding-top: 5rem;
+    text-align: center;
+    color: white;
+    font-family: 'Exo 2', sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+#about{
+    background-color: rgb(30,176,167);
+}
+
+#gallery {
+    background-color: rgb(188,72,129);
+}
+
+#contact {
+    background-color: rgb(249,176,123);
+}
+
+.nav-wrapper {
+    background: linear-gradient(to right, red , yellow);
+    font-family: 'Righteous', cursive;
+  }
+
+h2 {
+    text-align: center;
+    font-family: 'Exo 2', sans-serif;
+}  
+h5 {
+    text-align: center;
+    font-family: 'Exo 2', sans-serif;
+    border-bottom: 3px solid black;
+}
+
+p {
+    font-family: 'Exo 2', sans-serif;
+    text-align: center;
+}
+
+svg {
+    height: 4rem;
+}
+
+.carousel-item {
+    background: url(../images/art2.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+}
+
+#profile-pic {
+    border-radius: 50%;
+    width:100%;
+}
+
+
+.grow { 
+    transition: all .2s ease-in-out; 
+    }
+     
+ .grow:hover { 
+    transform: scale(1.2); 
+    }
+
+.gallery-images {
+    height: 100%;
+    width: 100%;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.collapsible-body {
+    background: url(../images/crumpled-paper.jpg);
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.collapsible-header {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 20px;
+}
+
+#left-gallery {
+    background: linear-gradient(to right, rgb(30,176,167) , yellow);
+}
+
+#right-gallery {
+    background: linear-gradient(to right, yellow , rgb(30,176,167));
+}
+/* Add on hover effects to icons and stuff -------------*/
+
+/* font-family: 'Josefin Sans', sans-serif;
+font-family: 'Lobster', cursive;
+font-family: 'Exo 2', sans-serif;
+font-family: 'Source Code Pro', monospace;
+font-family: 'Righteous', cursive; */
