@@ -32,6 +32,7 @@ body {
     background-color: rgb(249,176,123);
 }
 
+
 .nav-wrapper {
     background: linear-gradient(to right, red , yellow);
     font-family: 'Righteous', cursive;
@@ -86,7 +87,8 @@ svg {
 }
 
 .collapsible-body {
-    background: url(../images/crumpled-paper.jpg);
+    background-color: whitesmoke;
+    /* background: url(../images/crumpled-paper.jpg); */
     text-align: center;
     font-size: 16px;
     font-weight: bold;
@@ -104,6 +106,7 @@ svg {
 #right-gallery {
     background: linear-gradient(to right, yellow , rgb(30,176,167));
 }
+
 /* Add on hover effects to icons and stuff -------------*/
 
 /* font-family: 'Josefin Sans', sans-serif;

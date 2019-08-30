@@ -22,7 +22,8 @@
     <body>
         <nav>
             <div class="nav-wrapper cyan lighten-1">
-              <a href="#" class="brand-logo center">Chris Cogswell</a>
+              <a href="#" class="brand-logo center" id="name">Chris Cogswell</a>
+              <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
               <ul id="nav-mobile" class="left hide-on-med-and-down">
                 <li><a href="#about">About</a></li>
                 <li><a href="#gallery">Gallery</a></li>
@@ -30,6 +31,11 @@
               </ul>
             </div>
           </nav>  
+          <ul class="sidenav" id="mobile-demo">
+            <li><a href="#about">About</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
           <div class="billboard">
               <h1 id="welcome">Hello, Friends!</h1>
           </div> 
@@ -41,6 +47,7 @@
                     <p>Hello, Friends! I'm an up and coming Full-Stack developer with a passion for technology and an ever growing skill set which includes the core 3 of HTML, CSS, and Javascript, as well as Node.js, React.js, MongoDB, mySQL and more!
                        I am an avid video gamer and film geek, as well as a lover of history, science and travel. 
                     </p>
+                    <iframe frameborder="0" scrolling="no" src="https://credly.com/sharedembed/19672736" width="180" height="230" id="badge"></iframe>
                 </div>
                 <div class="col s4">
                     <img src="./assets/images/profile3.jpg" id="profile-pic" alt="Me">
@@ -235,7 +242,7 @@
                             <li>
                               <div class="collapsible-header" id="right-gallery"><i class="material-icons">chevron_right</i>Bamazon</div>
                               <div class="collapsible-body">
-                                  <span>An Amazon like, storefront application using nodeJS and mySQL. (Follow link to watch it in action)<br><br>
+                                  <span>An Amazon-like storefront application using nodeJS and mySQL. (Follow link to watch it in action)<br><br>
                                         <div class ="row">
                                             <div class ="col s6">
                                                 <!-- <a class="btn waves-effect white grey-text darken-text-2" href="https://chriscogswell.github.io/GifTastic/">See the App</a> -->
@@ -303,7 +310,15 @@
           </div>
           <div id="contact">
               <h2>&ltContact/&gt</h2>
-              <h5>Find me on Linkedin or feel free to email me directly</h5>
+              <h5>ccogs@yahoo.com</h5>
+              <div class="row">
+                <div class="col s4 offset-s4">
+                        <a href="https://www.linkedin.com/in/chris-cogswell-2b3a0223/"><img src="https://img.icons8.com/color/96/000000/linkedin.png"></a>
+                        <a href="https://www.facebook.com/chris.cogswell.792"><img src="https://img.icons8.com/color/96/000000/facebook-new.png"></a>
+                        <a href="https://github.com/ChrisCogswell"><img src="https://img.icons8.com/material-sharp/96/000000/github.png"></a>
+                        <img src="https://img.icons8.com/color/96/000000/twitter.png">
+                </div>
+              </div>      
           </div>
       <!-- Compiled and minified JavaScript -->
       <script type="text/javascript" src="./assets/javascript/main.js"></script>
